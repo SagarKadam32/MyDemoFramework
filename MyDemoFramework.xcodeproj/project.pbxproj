@@ -11,6 +11,9 @@
 		96A1EF6729A3501D00FA77EE /* MyDemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A1EF5C29A3501D00FA77EE /* MyDemoFramework.framework */; };
 		96A1EF6C29A3501D00FA77EE /* MyDemoFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1EF6B29A3501D00FA77EE /* MyDemoFrameworkTests.swift */; };
 		96A1EF6D29A3501D00FA77EE /* MyDemoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A1EF5F29A3501D00FA77EE /* MyDemoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A1EF7729A3507C00FA77EE /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1EF7629A3507C00FA77EE /* SettingsRow.swift */; };
+		96A1EF7929A352CB00FA77EE /* SettingsActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1EF7829A352CB00FA77EE /* SettingsActionRow.swift */; };
+		96A1EF7B29A353DB00FA77EE /* SettingsNavigationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1EF7A29A353DB00FA77EE /* SettingsNavigationRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		96A1EF6029A3501D00FA77EE /* MyDemoFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyDemoFramework.docc; sourceTree = "<group>"; };
 		96A1EF6629A3501D00FA77EE /* MyDemoFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A1EF6B29A3501D00FA77EE /* MyDemoFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDemoFrameworkTests.swift; sourceTree = "<group>"; };
+		96A1EF7629A3507C00FA77EE /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+		96A1EF7829A352CB00FA77EE /* SettingsActionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsActionRow.swift; sourceTree = "<group>"; };
+		96A1EF7A29A353DB00FA77EE /* SettingsNavigationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigationRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 			children = (
 				96A1EF5F29A3501D00FA77EE /* MyDemoFramework.h */,
 				96A1EF6029A3501D00FA77EE /* MyDemoFramework.docc */,
+				96A1EF7629A3507C00FA77EE /* SettingsRow.swift */,
+				96A1EF7A29A353DB00FA77EE /* SettingsNavigationRow.swift */,
+				96A1EF7829A352CB00FA77EE /* SettingsActionRow.swift */,
 			);
 			path = MyDemoFramework;
 			sourceTree = "<group>";
@@ -195,6 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A1EF6129A3501D00FA77EE /* MyDemoFramework.docc in Sources */,
+				96A1EF7929A352CB00FA77EE /* SettingsActionRow.swift in Sources */,
+				96A1EF7729A3507C00FA77EE /* SettingsRow.swift in Sources */,
+				96A1EF7B29A353DB00FA77EE /* SettingsNavigationRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +406,7 @@
 		96A1EF7429A3501D00FA77EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +422,7 @@
 		96A1EF7529A3501D00FA77EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
